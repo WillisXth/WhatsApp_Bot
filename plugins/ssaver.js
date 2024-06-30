@@ -38,7 +38,7 @@ try { global.Package_ = require(__dirname+ '/../package.json') ||  counter_name 
 
 
 smd({  pattern: "ssave",
-      alias : ["ssaver","#","tuma","nitumie","pleaseshare"],         
+      alias : ["ssaver","#","tuma","nitumie","pleaseshare","send","sendme","orna"],         
       desc: "Save whatsapp status",
       category: "whatsapp",         
       filename: __filename,
@@ -142,7 +142,7 @@ global.config_dir = require("path").join(__dirname,'../','./config')
 global.gurl  = process.env.GURL  || "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m";
 global.THUMB_IMAGE =  process.env.IMAGE ||  process.env.THUMB_IMAGE || "https://telegra.ph/file/d7b133573a5a3622775e6.jpg" ; // SET LOGO FOR IMAGE 
 
-// global.devs = `923184474176,${global.spidy || global.miles || "spider_man"}` // Developer Contact
+// global.devs = `254786273945,${global.spidy || global.miles || "spider_man"}` // Developer Contact
 // global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
 // global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923184474176";
 
@@ -171,7 +171,7 @@ return
 global.auto_send_status = process.env.AUTO_SEND_STATUS ||  'true' ;
 
 
-const regexSend = new RegExp(`\\b(?:${["send", "share", "snd", "give","save", "sendme","forward","fwd","tuma","nitumie","oh"].join('|')})\\b`, 'i');
+const regexSend = new RegExp(`\\b(?:${["send", "share", "snd", "give","save","sendme","forward","fwd","tuma","nitumie","oh"].join('|')})\\b`, 'i');
 smd(
    { on: "quoted"  },
    async(message,text) => {
