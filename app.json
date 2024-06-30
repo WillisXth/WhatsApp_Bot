@@ -2,7 +2,7 @@
   "name": "ᴡɪʟʟɪꜱ-ᴍᴅ",
   "logo": "https://telegra.ph/file/d7b133573a5a3622775e6.jpg",
   "success_url": "/suhail/",
-  "repository": "https://github.com/WillisKE/Suhaul",
+  "repository": "https://github.com/WillisKE/Suhail",
   "app_url": "/qr/",
   "ok-stack": "container",
   "env": { 
@@ -21,14 +21,9 @@
       "value": "",
     "required" :true
     },
-    "MSGS_IN_LOG": {
-      "description": "Fill the value -true- if you want to see Messages in logs.",
-      "required" :false,
-      "value": "log"
-    },
     "GURL": {
       "description": "Make it 'false' if you wanna run bot in your pm (if MODE is Public)",
-      "value": "https://whatsapp.com/channel/0029VaZ8Q0Y1XquZ673Uvs0m",
+      "value": "https://chat.whatsapp.com/KlFKWN3QWq04DKeAdjk8gw",
       "required" :false
     },
     "PREFIX": {
@@ -37,7 +32,7 @@
     },
     "OWNER_NUMBER": {
       "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-      "value": "254786273945,254702365210,254708336448,254762508828"
+      "value": "254786273945,254702365210,254708336448,254762508828,254101827915"
     },
     "SESSION_ID": {
       "description": "put your SESSION_ID here.",
