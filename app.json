@@ -4,7 +4,7 @@
   "success_url": "/suhail/",
   "repository": "https://github.com/WillisKE/Suhail",
   "app_url": "/qr/",
-  "stack": "heroku-24",
+  "ok-stack": "container",
   "env": { 
     "TZ": {
       "description": "Put TIME_ZONE according to your location",
