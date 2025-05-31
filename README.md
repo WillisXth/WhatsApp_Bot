@@ -1,6 +1,6 @@
 <a><img src="https://i.imgur.com/LyHic3i.gif'"/></a>
 <h1 align="center"> ᴡɪʟʟɪꜱ-ᴍᴅ </h1><a>
-<p align="center"> A simple WhatsApp bot with rich features. </p>
+<p align="center"> A simple WhatsApp bot with rich feaures. </p>
 
 <p align="center">
   <a href="https://youtube.com/c/WillisWrld">
